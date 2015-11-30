@@ -1,0 +1,17 @@
+puts “What is your DOB MMDDYYYY:  ”
+
+dateofbirth = gets
+
+num =
+dateofbirth[0].to_i +  dateofbirth[1].to_i + dateofbirth[2].to_i + dateofbirth[3].to_i + dateofbirth[4].to_i + dateofbirth[5].to_i + dateofbirth[6].to_i + dateofbirth[7].to_i 
+
+num = num.to_s
+
+num = num[0].to_i + num[1].to_i
+
+
+if num > 9
+   num = num[0].to_i + num[1].to_i
+
+end
+
